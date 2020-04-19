@@ -492,17 +492,20 @@ gg.toast("ᴀɴᴛᴇɴᴀ sɪᴍᴘʟᴇ ")
 end
  
  function HS()
- gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResultsCount()
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("85", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.toast("ʜᴇᴀᴅsʜᴏᴛ sᴀғᴇ ᴀᴄᴛɪᴠᴇ")
+ qmnb = {
+{["memory"] = 32},
+{["name"] = "Auto Headshot Brutal"},
+{["value"] = 9.201618194580078, ["type"] = 16},
+{["lv"] = -1.3185920715332031, ["offset"] = 4, ["type"] = 16},
+{["lv"] = 9.203507215715945E-5, ["offset"] = 8, ["type"] = 16},
+{["lv"] = 25.0, ["offset"] = 28, ["type"] = 16},
+{["lv"] = 30.5, ["offset"] = 32, ["type"] = 16},
+}
+qmxg = {
+{["value"] = 300, ["offset"] = 28, ["type"] = 16},
+{["value"] = 301, ["offset"] = 32, ["type"] = 16},
+}
+xqmnb(qmnb)
 end
   
  function LR()
